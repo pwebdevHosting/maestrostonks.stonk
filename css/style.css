@@ -1,0 +1,135 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.bg-black {
+  background-color: #060606;
+}
+
+.navbar-nav,
+.navbar-brand {
+  padding: 0 20px;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../images/banner.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+  padding-top: 200px;
+  padding-left: 100px;
+}
+
+.hero .btn {
+  border-radius: 15px;
+}
+
+#meme .row img {
+  height: 250px;
+}
+
+#testimonials {
+  text-align: center;
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#footer {
+  text-align: center;
+  padding: 5% 10%;
+}
+
+.social-icons {
+  margin: 20px 10px;
+  color: #fff;
+}
+
+#footer i:hover {
+  opacity: 0.5;
+}
+
+.preview-img img {
+  width: 300px !important;
+}
+
+#carouselExampleInterval .carousel-control-next,
+#carouselExampleInterval .carousel-control-prev {
+  filter: invert(100%);
+}
+
+.fa-play-circle:hover {
+  opacity: 0.5;
+}
+
+
+#top-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 5px;
+  z-index: 99;
+  background-color: Transparent;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  opacity: 0.5;
+}
+
+#top-btn:hover {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 90vh;
+    padding-left: 50px;
+  }
+
+  .aspiranti h1 {
+    font-size: 30px !important;
+  }
+
+  h2,
+  h3 {
+    font-size: 20px !important;
+  }
+
+  .heading {
+    font-size: 35px !important;
+  }
+
+  .display-4 {
+    font-size: 30px !important;
+  }
+
+  .st {
+    font-size: 20px !important;
+    width: 250px;
+  }
+
+  .navbar-nav,
+  .navbar-brand {
+    padding: 0 !important;
+  }
+
+}
+
+@media (max-width: 425px) {
+  .hero {
+    padding-left: 20px;
+    padding-top: 150px;
+  }
+}
